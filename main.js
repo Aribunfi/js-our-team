@@ -7,13 +7,13 @@ let occupation = ["Founder & CEO", "Chief Editor", "Office Manager", "Social Med
 
 let data = {
     
-        "name": ["Wayne", "Angela", "Walter", "Angela", "Scott", "Barbara"],
-        "surname": ["Barnett"],
-   
-      
+        "name": ["Wayne Barnett", "Angela Caroll", "Walter Gordon", "Angela Lopez", "Scott Estrada", "Barbara Ramos"],
+        "occupation": ["Founder & CEO", "Chief Editor", "Office Manager", "Social Media Manager", "Developer", "Graphic Designer"],
+
 }
 
 console.log(data.name);
+console.log(data.occupation);
 
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
