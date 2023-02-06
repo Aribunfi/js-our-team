@@ -17,6 +17,15 @@ console.log(data.name);
 console.log(data.occupation);
 console.log(data.photo);
 
+
+const cardTitle = document.getElementById('member-name');
+
+cardTitle.append(data.name)
+
+const cardSubtitle = document.getElementById('member-position');
+
+cardTitle.append(data.occupation)
+
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2:
